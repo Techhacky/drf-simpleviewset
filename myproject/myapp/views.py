@@ -40,3 +40,4 @@ class HomeDescription(APIView):
         snippet = self.get_object(pk)
         snippet.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+    "added a comment"
